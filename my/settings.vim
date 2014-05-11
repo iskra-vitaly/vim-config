@@ -24,4 +24,5 @@ set hidden		" Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
 set modeline
 set noexpandtab
+set omnifunc=syntaxcomplete#Complete
 
