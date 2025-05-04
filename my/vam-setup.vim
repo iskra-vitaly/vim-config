@@ -40,7 +40,7 @@ fun! SetupVAM()
   " VAM install location:
   let c = get(g:, 'vim_addon_manager', {})
   let g:vim_addon_manager = c
-  let c.plugin_root_dir = expand('$HOME/.vim/vim-addons', 1)
+  let c.plugin_root_dir = expand('$HOME/.config/vim/vim-addons', 1)
   if !EnsureVamIsOnDisk(c.plugin_root_dir)
     echohl ErrorMsg | echomsg "No VAM found!" | echohl NONE
     return
